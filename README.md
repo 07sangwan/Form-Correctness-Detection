@@ -29,3 +29,60 @@ The pipeline is designed to be simple, extendable, and suitable for beginner/int
 * Support additional exercises such as squats and push-ups.
 
 * Generate time-series angle data in CSV format.
+
+# Technologies Used
+
+* MediaPipe Pose — Keypoint detection
+
+* OpenCV — Video reading, drawing overlays
+
+* NumPy — Angle calculations
+
+* Pandas — Storing time-series data
+
+# Exercises Supported
+# Bicep Curl
+* Computes elbow angle
+
+* Detects GOOD / PARTIAL / INCOMPLETE curl
+
+* Works for both arms
+
+# Lateral Raise
+
+* Checks whether wrist and shoulder remain level
+
+* Evaluates alignment on both sides
+
+# Torso Stability
+
+* Measures symmetry/tilt
+
+* Detects if user is leaning excessively
+
+# Squat
+
+* Uses hip–knee–ankle angle
+
+* Classifies squat depth as Good or Shallow
+
+# Push-Up
+
+* Evaluates straightness of shoulder–hip–ankle line
+
+* Detects hip sag or raised hips
+
+# Outputs Generated
+* Processed Video (processed.mp4)
+
+* * Includes all keypoints
+
+* * Displays text-with-background feedback
+
+* * Shows left/right elbow angles
+
+* * Shows real-time exercise analysis
+
+* Angles.csv
+
+* 
