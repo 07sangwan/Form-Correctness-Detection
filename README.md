@@ -85,4 +85,3 @@ The pipeline is designed to be simple, extendable, and suitable for beginner/int
 
 * Angles.csv
 
-* 
